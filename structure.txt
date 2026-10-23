@@ -1,0 +1,13 @@
+burnout_prediction/
+├── main.py                 # Entry point — run this
+├── requirements.txt
+├── README.md
+├── data/train.csv          # Put your CSV here
+├── outputs/                # Model, scaler, plots saved here
+└── src/
+    ├── config.py           # All paths & constants — one place to edit
+    ├── environment.py      # Auto-installs missing libraries
+    ├── data_pipeline.py    # DataPipeline class: load/clean/encode
+    ├── model.py            # BurnoutModel class: train/predict/save/load
+    ├── cli_input.py        # Validated user-input prompts
+    └── visualization.py    # Scatter + box plot generation
